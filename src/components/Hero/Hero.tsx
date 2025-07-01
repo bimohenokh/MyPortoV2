@@ -1,11 +1,10 @@
 import {BrowserRouter} from "react-router-dom"
-import Illustration from "@/assets/illustration.svg"
 import {NavHashLink} from "react-router-hash-link"
 import linkedin from '@/assets/linkedin.svg'
 import githubIcon from '@/assets/github.svg'
 import whatsapp from '@/assets/whatsapp.svg'
 import Hello from '@/assets/Hello.gif'
-import telegram from '@/assets/telegram.svg'
+// import telegram from '@/assets/telegram.svg'
 import {Container} from "@/components/Hero/styles";
 
 export function Hero() {
@@ -56,10 +55,6 @@ export function Hero() {
           {/*</a>*/}
         </div>
 
-      </div>
-      {/*TODO ganti ilustrasi*/}
-      <div className="hero-image">
-        <img src={Illustration} alt="Ilustração" data-aos="fade-right" data-aos-delay="1000"/>
       </div>
     </Container>
   )
