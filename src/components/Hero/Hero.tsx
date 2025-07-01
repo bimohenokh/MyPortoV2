@@ -48,7 +48,7 @@ export function Hero() {
           </a>
           {/*TODO telegram ntar aja*/}
           {/*<a*/}
-          {/*  href="https://t.me/CodeVinayak"*/}
+          {/*  href=""*/}
           {/*  target="_blank"*/}
           {/*  rel="noreferrer"*/}
           {/*>*/}
