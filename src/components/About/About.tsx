@@ -168,7 +168,16 @@ export function About() {
       </div>
       <div className="about-image">
         <div data-aos="fade-left" data-aos-delay="210">
-          <img src={MyImage} alt="Bimo Henokh Barata"/>
+          <img
+            src={MyImage}
+            alt="Bimo Henokh Barata"
+            style={{
+              borderRadius: "150px",
+              width: "400px",
+              height: "500px",
+              objectFit: "cover"
+            }}
+          />
         </div>
       </div>
     </Container>
