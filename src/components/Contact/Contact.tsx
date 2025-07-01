@@ -1,27 +1,27 @@
-import { Container } from "@/components/Contact/styles";
+import {Container} from "@/components/Contact/styles";
 import emailIcon from "@/assets/email-icon.svg";
 import phoneIcon from "@/assets/phone-icon.svg"
-import { Form } from "@/components/Form/Form";
+import {Form} from "@/components/Form/Form";
 
 
-export function Contact(){
+export function Contact() {
 
-  return(
+  return (
     <Container id="contact">
       <header>
         <h2>Contact</h2>
         <p>Ready to get started on your project? </p>
-        <p>Contact me now for a Free consultation.</p>
+        <p>Contact me now.</p>
       </header>
       <div className="contacts">
         <div>
-        <a href="mailto:vinayak@vinayaksingh.com"><img src={emailIcon} alt="Email" /></a> 
-          <a href="mailto:vinayak@vinayaksingh.com">vinayak@vinayaksingh.com</a>
+          <a href="mailto:bimo.barata2@gmail.com"><img src={emailIcon} alt="Email"/></a>
+          <a href="mailto:bimo.barata2@gmail.com">bimo.barata2@gmail.com</a>
         </div>
         <div>
-        <a href="tel:+919630576848"><img src={phoneIcon} alt="Phone No" /></a>
-          <a href="tel:+919630576848">(+91) 9630576848</a>
-        </div>  
+          <a href="tel:+6285217073494"><img src={phoneIcon} alt="Phone No"/></a>
+          <a href="tel:+6285217073494">(+62) 852 1707 3494</a>
+        </div>
       </div>
       <Form></Form>
     </Container>

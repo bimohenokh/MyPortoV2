@@ -1,12 +1,12 @@
 import { Container, ContainerSucces } from '@/components/Form/styles'
 import { useForm, ValidationError } from '@formspree/react'
-import { toast, ToastContainer } from 'react-toastify'
+import { toast } from 'react-toastify'
 import ReCAPTCHA from 'react-google-recaptcha'
 import { useEffect, useState } from 'react'
 import validator from 'validator'
 
 export function Form() {
-  const [state, handleSubmit] = useForm('xknkpqry')
+  const [state, handleSubmit] = useForm('movwrrvo')
   const [validEmail, setValidEmail] = useState(false)
   const [isHuman, setIsHuman] = useState(false)
   const [message, setMessage] = useState('')
@@ -20,7 +20,7 @@ export function Form() {
   useEffect(() => {
     if (state.succeeded) {
       toast.success('Email successfully sent!', {
-        position: toast.POSITION.BOTTOM_LEFT,
+        position: 'bottom-left',
         pauseOnFocusLoss: false,
         closeOnClick: true,
         hideProgressBar: false,
@@ -39,7 +39,6 @@ export function Form() {
         >
           Back to the top
         </button>
-        <ToastContainer />
       </ContainerSucces>
     )
   }
@@ -73,7 +72,7 @@ export function Form() {
           errors={state.errors}
         />
         <ReCAPTCHA
-          sitekey="6Lfj9NYfAAAAAP8wPLtzrsSZeACIcGgwuEIRvbSg"
+          sitekey="6LcT4XMrAAAAACdBf1zvp2oV72IFlE-FsrDyey4h"
           onChange={(e) => {
             setIsHuman(true)
           }}
@@ -85,7 +84,6 @@ export function Form() {
           Submit
         </button>
       </form>
-      <ToastContainer />
     </Container>
   )
 }

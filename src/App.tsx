@@ -5,6 +5,7 @@ import {Footer} from "@/components/Footer/Footer";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {useEffect} from "react";
+import {ToastContainer} from "react-toastify";
 
 export function App() {
   useEffect(() => {
@@ -21,6 +22,17 @@ export function App() {
       <Header></Header>
       <Main></Main>
       <Footer></Footer>
+      <ToastContainer
+        position="bottom-left"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
     </>
   );
 }
