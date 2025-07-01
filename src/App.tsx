@@ -1,24 +1,26 @@
-import { APITester } from "./APITester";
-import "./index.css";
-
-import logo from "./logo.svg";
-import reactLogo from "./react.svg";
+import {Header} from "@/components/Header/Header";
+import {GlobalStyle} from "@/styles/global";
+import {Main} from "@/components/Main/Main";
+import {Footer} from "@/components/Footer/Footer";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import {useEffect} from "react";
 
 export function App() {
-  return (
-    <div className="app">
-      <div className="logo-container">
-        <img src={logo} alt="Bun Logo" className="logo bun-logo" />
-        <img src={reactLogo} alt="React Logo" className="logo react-logo" />
-      </div>
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+      offset: 100
+    });
+  }, []);
 
-      <h1>Bun + React</h1>
-      <p>
-        Edit <code>src/App.tsx</code> and save to test HMR
-      </p>
-      <APITester />
-    </div>
+  return (
+    <>
+      <GlobalStyle></GlobalStyle>
+      <Header></Header>
+      <Main></Main>
+      <Footer></Footer>
+    </>
   );
 }
-
-export default App;
