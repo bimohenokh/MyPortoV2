@@ -75,92 +75,92 @@ export function About() {
         </div>
         <div className="hard-skills">
           <div className="hability">
-            <div data-aos="fade-up" data-aos-delay="100">
+            <div data-aos="fade-up" data-aos-delay="0">
               <img src={python} alt="python"/>
             </div>
           </div>
           <div className="hability">
-            <div data-aos="fade-up" data-aos-delay="110">
+            <div data-aos="fade-up" data-aos-delay="50">
               <img src={java} alt="java"/>
             </div>
           </div>
           <div className="hability">
-            <div data-aos="fade-up" data-aos-delay="120">
+            <div data-aos="fade-up" data-aos-delay="100">
               <img src={jsIcon} alt="JavaScript"/>
             </div>
           </div>
           <div className="hability">
-            <div data-aos="fade-up" data-aos-delay="140">
+            <div data-aos="fade-up" data-aos-delay="150">
               <img src={typescriptIcon} alt="Typescript"/>
             </div>
           </div>
           <div className="hability">
-            <div data-aos="fade-up" data-aos-delay="140">
+            <div data-aos="fade-up" data-aos-delay="200">
               <img src={golangIcon} alt="Golang"/>
             </div>
           </div>
           <div className="hability">
-            <div data-aos="fade-up" data-aos-delay="180">
+            <div data-aos="fade-up" data-aos-delay="250">
               <img src={htmlIcon} alt="Html"/>
             </div>
           </div>
           <div className="hability">
-            <div data-aos="fade-up" data-aos-delay="190">
+            <div data-aos="fade-up" data-aos-delay="300">
               <img src={cssIcon} alt="Css"/>
             </div>
           </div>
           <div className="hability">
-            <div data-aos="fade-up" data-aos-delay="130">
+            <div data-aos="fade-up" data-aos-delay="350">
               <img src={djangoIcon} alt="Django"/>
             </div>
           </div>
           <div className="hability">
-            <div data-aos="fade-up" data-aos-delay="130">
+            <div data-aos="fade-up" data-aos-delay="400">
               <img src={springIcon} alt="Spring"/>
             </div>
           </div>
           <div className="hability">
-            <div data-aos="fade-up" data-aos-delay="130">
+            <div data-aos="fade-up" data-aos-delay="450">
               <img src={fastApiIcon} alt="FastApi"/>
             </div>
           </div>
           <div className="hability">
-            <div data-aos="fade-up" data-aos-delay="130">
+            <div data-aos="fade-up" data-aos-delay="500">
               <img src={reactIcon} alt="React"/>
             </div>
           </div>
           <div className="hability">
-            <div data-aos="fade-up" data-aos-delay="130">
+            <div data-aos="fade-up" data-aos-delay="550">
               <img src={nextJsIcon} alt="NextJs"/>
             </div>
           </div>
           <div className="hability">
-            <div data-aos="fade-up" data-aos-delay="130">
+            <div data-aos="fade-up" data-aos-delay="600">
               <img src={tailwindIcon} alt="Tailwind"/>
             </div>
           </div>
           <div className="hability">
-            <div data-aos="fade-up" data-aos-delay="200">
+            <div data-aos="fade-up" data-aos-delay="650">
               <img src={boostrapIcon} alt="bootstrap"/>
             </div>
           </div>
           <div className="hability">
-            <div data-aos="fade-up" data-aos-delay="130">
+            <div data-aos="fade-up" data-aos-delay="700">
               <img src={nginxIcon} alt="Nginx"/>
             </div>
           </div>
           <div className="hability">
-            <div data-aos="fade-up" data-aos-delay="130">
+            <div data-aos="fade-up" data-aos-delay="750">
               <img src={dockerIcon} alt="Docker"/>
             </div>
           </div>
           <div className="hability">
-            <div data-aos="fade-up" data-aos-delay="130">
+            <div data-aos="fade-up" data-aos-delay="800">
               <img src={podmanIcon} alt="Podman"/>
             </div>
           </div>
           <div className="hability">
-            <div data-aos="fade-up" data-aos-delay="130">
+            <div data-aos="fade-up" data-aos-delay="850">
               <img src={googleCloudIcon} alt="Google Cloud"/>
             </div>
           </div>
